@@ -95,6 +95,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.4.1</version>
                 <configuration>
+                    <finalName>${project.artifactId}-${project.version}-jar-with-dependencies</finalName>
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
