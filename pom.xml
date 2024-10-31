@@ -20,7 +20,7 @@
             <version>3.12.0</version>
         </dependency>
         <dependency>
-            <groupId>com.local</groupId>
+            <groupId>com.javarush</groupId>
             <artifactId>desktop-game-engine</artifactId>
             <version>1.0</version>
         </dependency>
