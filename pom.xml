@@ -40,7 +40,7 @@
     <build>
         <resources>
             <resource>
-                <directory>%{project.build.directory}/lib</directory>
+                <directory>${project.build.directory}/lib</directory>
                 <targetPath>lib/</targetPath>
             </resource>
         </resources>
@@ -83,7 +83,7 @@
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>%{project.build.directory}/lib</outputDirectory>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
                             <includeScope>compile</includeScope>
                         </configuration>
                     </execution>
