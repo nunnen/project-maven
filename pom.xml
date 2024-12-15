@@ -15,8 +15,9 @@
 
     <repositories>
         <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/nunnen/desktop-game-engine</url>
+            <id>local-repo</id>
+            <name>local-repo</name>
+            <url>file://${project.basedir}/lib</url>
         </repository>
     </repositories>
 
